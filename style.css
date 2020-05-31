@@ -403,7 +403,7 @@ li, ul a {
 #zen-resources {
     position: relative;
     background: url(./img/bamboo.png) rgb(116, 170, 61);  
-    width: 98.5%;
+    width: 100%;
     height: 200px;
     top: -360px;   
 }
