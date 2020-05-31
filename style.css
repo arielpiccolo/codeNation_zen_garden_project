@@ -68,9 +68,23 @@ header[role="banner"] h2 {
 /* ----------------------------------------------------*/
 
 
+
 .participation , .benefits {
+    position: relative;
     background: url(./img/bamboo.png) rgb(116, 170, 61);  
-    width: 100%;
+    width: 1650px;
+    left: -5.5%;
+
+}
+
+#zen-participation p:nth-child(2),#zen-participation p:nth-child(3),#zen-participation p:last-child,#zen-benefits p {
+    text-align: left;
+    width: 1500px
+}
+
+
+.participation, .benefits {
+
     color: white;
     border: 1px solid transparent;  
 }
@@ -80,11 +94,10 @@ header[role="banner"] h2 {
         
 }
 
-.participation, .benefits { 
+.participation, .benefits {
     color: white;
-
+    text-align: left;
 }
-
 
 /* ----------------------------------------------------*/
 
@@ -250,7 +263,7 @@ li, ul a {
 
     
 #design-selection li:first-child {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(179, 181, 182); 
     width: 100%;
     text-align: center;
     width: 750px;
@@ -263,7 +276,7 @@ li, ul a {
 }
 
 #design-selection li:nth-child(2){
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(179, 181, 182); 
     width: 100%;
     right: -55px;
     float: right;
@@ -275,149 +288,133 @@ li, ul a {
 }
 
 #design-selection li:nth-child(3) {
+    border-bottom: 2px solid rgb(179, 181, 182); 
+    width: 100%;
     text-align: center;
     width: 750px;
     position: relative;
-    top: -29px;
+    top: -25px;
     margin-top: 0px;
     padding: 25px;
-    left: -45px
+    left: -20px
 }
 
 #design-selection li:nth-child(4){
+    border-bottom: 2px solid rgb(179, 181, 182); 
+    width: 100%;
     text-align: center;
     right: -55px;
     float: right;
     width: 755px;
     padding: 25px;
     position: relative;
-    top: -105px;
+    top: -92px;
 }
 
 
 #design-selection li:nth-child(5) {
+    border-bottom: 2px solid rgb(179, 181, 182); 
+    width: 100%;
     text-align: center;
     width: 750px;
     position: relative;
     top: -54px;
     margin-top: 20px;
     padding: 25px;
-    left: -45px
+    left: -20px
 }
 
 
 #design-selection li:nth-child(6){
+    border-bottom: 2px solid rgb(179, 181, 182); 
+    width: 100%;
     text-align: center;
     right: -55px;
     float: right;
     width: 755px;
     padding: 25px;
     position: relative;
-    top: -127px;
+    top: -121px;
 }
 
 
 #design-selection li:nth-child(7) {
+    border-bottom: 2px solid rgb(179, 181, 182); 
+    width: 100%;
     text-align: center;
     width: 750px;
     position: relative;
     top: -79px;
     margin-top: 20px;
     padding: 25px;
-    left: -45px
+    left: -20px
 }
 
 
 #design-selection li:nth-child(8){
+    border-bottom: 2px solid rgb(179, 181, 182); 
+    width: 100%;
     text-align: center;
     right: -55px;
     float: right;
     width: 755px;
     padding: 25px;
     position: relative;
-    top: -154px;
+    top: -146px;
 }
 
 /* ----------------------------------------------------*/
 
 .next a {
+    color: rgb(179, 181, 182); ;
     text-align: center;
-  width: 750px;
-  position: relative;
-  top: -340px;
-  margin-top: 20px;
-  padding: 25px;
-  left: -445px  
+    width: 750px;
+    position: relative;
+    top: -330px;
+    margin-top: 20px;
+    padding: 25px;
+    left: -415px  
 }
 
 .viewall a {
-  text-align: center;
-  right: -55px;
-  float: right;
-  width: 755px;
-  padding: 25px;
-  position: relative;
-  top: -435px;
+    color: rgb(179, 181, 182); ;
+    text-align: center;
+    right: -55px;
+    float: right;
+    width: 755px;
+    padding: 25px;
+    position: relative;
+    top: -410px;
 }
+
+
+
+
+
+
+
+#zen-resources {
+    position: relative;
+    background: url(./img/bamboo.png) rgb(116, 170, 61);  
+    width: 98.5%;
+    height: 200px;
+    top: -360px;   
+}
+
 
 
 /* ----------------------------------------------------*/
 
 
-.view-css a, .view-css {
-    display: block;
-    position: relative;
-    border: 3px solid rebeccapurple;
-    text-align: center;
+.view-css a, .zen-faq a, .zen-faq, .css-resources, .css-resources a {
     float: left;
-    margin-top: -2%;
-    margin-left: 24%;
+   
 }
 
 
-.view-css {
-    border: 3px solid orange;
-    display:  inline;
-
-}
-
-
-#zen-resources {
-    border: 5px dotted blue;
-    display: block;
-    position: relative;
-    background: url(./img/bamboo.png) rgb(116, 170, 61);  
-    width: 98.5%;
-    height: 200px;
-    top: -350px;   
-}
-
-
-.zen-faq a, .zen-faq {
-    float: left;
-    border: 5px solid red;
-    display: block;
-}
-
-
-.css-resources, .css-resources a  {
-    display: inline;
-    border: 2px solid red;
-    
-}
-
-
-.zen-submit, .zen-submit a {
+.zen-submit, .zen-submit a, zen-translations, .zen-translations a  {
     float: right;
-    border: 5px dotted red;
-    display: inline;
-}
-
-
-.zen-translations, .zen-translations a {
-    float: right;
-    border: 5px dotted red;
-    display: inline;
+      
 }
 
 
