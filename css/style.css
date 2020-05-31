@@ -30,7 +30,7 @@ body {
 /* top of the page*/
 
 header {
-    background: url(/img/huntington.png);
+    background: url(./img/huntington.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -75,7 +75,7 @@ header[role="banner"] h2 {
 /* middle of the page  */
 
 .participation , .benefits {
-    background: url(/img/bamboo.png) rgb(116, 170, 61);  
+    background: url(./img/bamboo.png) rgb(116, 170, 61);  
     width: 100%;
     color: white;
     border: 1px solid transparent;
@@ -384,28 +384,6 @@ li, ul a {
 
 /* ----------------------------------------------------*/
 
-/*
-.next  {
-    display: inline;
-    border: 12px solid purple;      
-}
-
-
-.viewall {
-    display: inline;
-    border: 10px dotted brown;
-}
-
-
-
-.indicator {
-    color: blue;
-}
-
-*/
-
-
-/* ----------------------------------------------------*/
 
 .view-css a, .view-css {
     display: block;
@@ -416,6 +394,8 @@ li, ul a {
     margin-top: -2%;
     margin-left: 24%;
 }
+
+
 .view-css {
     border: 3px solid orange;
     display:  inline;
@@ -428,7 +408,7 @@ li, ul a {
     border: 5px dotted blue;
     display: block;
     position: relative;
-    background: url(/img/bamboo.png) rgb(116, 170, 61);  
+    background: url(./img/bamboo.png) rgb(116, 170, 61);  
     width: 98.5%;
     height: 200px;
     top: -350px;   
