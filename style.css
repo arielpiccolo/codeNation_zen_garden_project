@@ -77,10 +77,17 @@ header[role="banner"] h2 {
 
 }
 
+
+
 #zen-participation p:nth-child(2),#zen-participation p:nth-child(3),#zen-participation p:last-child,#zen-benefits p {
-    text-align: left;
-    width: 1500px
+   width: 1500px
 }
+
+
+.participation p ,.benefits p, .participation h3, .benefits h3  {  
+    margin-left: 5%
+}
+
 
 
 .participation, .benefits {
@@ -96,7 +103,7 @@ header[role="banner"] h2 {
 
 .participation, .benefits {
     color: white;
-    text-align: left;
+   
 }
 
 /* ----------------------------------------------------*/
