@@ -9,8 +9,6 @@ html {
     height: 2060px;
 }
 
-
-
 body {
     font-family: IBM, Plex, Mono;
     font-size: 13px;
@@ -18,8 +16,6 @@ body {
     text-align: left;
 }
 
-
-/* text aligment and padding for this areas   */
 .summary, .preamble, [class="main supporting"] {
     text-align: left;
     padding-left: 5%;
@@ -27,7 +23,6 @@ body {
     
 }
 
-/* top of the page*/
 
 header {
     background: url(./img/huntington.png);
@@ -64,7 +59,7 @@ header[role="banner"] h2 {
     font-weight: 400;
     font-style: italic;
     font-family : Satisfy;
-    background: url(/img/zen.svg);
+    background: url(./img/zen.svg);
     background-size: 25px;
     background-repeat: no-repeat;
     
@@ -72,15 +67,12 @@ header[role="banner"] h2 {
 
 /* ----------------------------------------------------*/
 
-/* middle of the page  */
 
 .participation , .benefits {
     background: url(./img/bamboo.png) rgb(116, 170, 61);  
     width: 100%;
     color: white;
-    border: 1px solid transparent;
-
-    
+    border: 1px solid transparent;  
 }
 
 .participation h3,a ,.benefits, h3{ 
@@ -104,8 +96,7 @@ header[role="banner"] h2 {
     padding: 3%;
     right:5.6%;
     margin-top: 2.5%;
-    
-}
+ }
 
 [role="contentinfo"] a {
     padding-top: 3%;
@@ -124,11 +115,18 @@ header[role="banner"] h2 {
     text-align: center;
 }
 
+
+
 /* ----------------------------------------------------*/
+
+
 
 .wrapper {
     height: 600px;
 }
+
+
+/* ----------------------------------------------------*/
 
 
 
@@ -140,14 +138,14 @@ header[role="banner"] h2 {
     padding-bottom: 2%;
 }
 
-
-
 .select, .archives, .resources  {
     color: transparent
 }
 
 
 /* ----------------------------------------------------*/
+
+
 
 footer {
     background-color: rgb(29, 71, 29);
@@ -158,8 +156,6 @@ footer {
     right: 5.6%;
 }
 
-
-
 footer i.fab.fa-github  {
     display: block;
     position: absolute;
@@ -169,10 +165,7 @@ footer i.fab.fa-github  {
     color: white;
 }
 
-
-
 /* ----------------------------------------------------*/
-
 
 
 i.fab.fa-accessible-icon  {
@@ -224,9 +217,6 @@ i.fab.fa-html5  {
 }
 
 
-/* ----------------------------------------------------*/
-
-
 #design-selection {
     display: block;
     height: 430px;
@@ -234,7 +224,6 @@ i.fab.fa-html5  {
     padding-bottom: 0px;
     padding-top: 0;    
 }
-
 
 
 /* ----------------------------------------------------*/
@@ -257,12 +246,7 @@ li, ul a {
 }
 
 
-
-
 /* ----------------------------------------------------*/
-
-
-
 
     
 #design-selection li:first-child {
@@ -356,9 +340,6 @@ li, ul a {
 
 /* ----------------------------------------------------*/
 
-
-
-
 .next a {
     text-align: center;
   width: 750px;
@@ -368,8 +349,6 @@ li, ul a {
   padding: 25px;
   left: -445px  
 }
-
-
 
 .viewall a {
   text-align: center;
@@ -403,7 +382,6 @@ li, ul a {
 }
 
 
-
 #zen-resources {
     border: 5px dotted blue;
     display: block;
@@ -413,7 +391,6 @@ li, ul a {
     height: 200px;
     top: -350px;   
 }
-
 
 
 .zen-faq a, .zen-faq {
@@ -447,10 +424,6 @@ li, ul a {
 /* ----------------------------------------------------*/
 
 
-
-
-
-/* BOTTOM OF PAGE */
 
 /* PROBLEMS
 1. cant get the top text centered
