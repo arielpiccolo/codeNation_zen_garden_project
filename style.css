@@ -370,6 +370,11 @@ li, ul a {
     top: -146px;
 }
 
+li:first-child .designer-name:last-child, li:first-child .designer-name:last-child,li:nth-child(5) .designer-name:last-child,li:nth-child(7) .designer-name:last-child,li:nth-child(2) .designer-name:last-child,li:nth-child(4) .designer-name:last-child,li:nth-child(6) .designer-name:last-child,li:last-child .designer-name:last-child,li:nth-child(3) .designer-name:last-child {
+    color: rgb(179, 181, 182); 
+}   
+
+
 /* ----------------------------------------------------*/
 
 .next a {
@@ -395,11 +400,6 @@ li, ul a {
 }
 
 
-
-
-
-
-
 #zen-resources {
     position: relative;
     background: url(./img/bamboo.png) rgb(116, 170, 61);  
@@ -413,15 +413,51 @@ li, ul a {
 /* ----------------------------------------------------*/
 
 
-.view-css a, .zen-faq a, .zen-faq, .css-resources, .css-resources a {
-    float: left;
-   
+.view-css a, .zen-faq a, .css-resources a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    padding-left: 0%;
+    margin-left: 10%;
+    margin-top: -1%;
+    color: rgb(47, 90, 47);
 }
 
 
-.zen-submit, .zen-submit a, zen-translations, .zen-translations a  {
-    float: right;
-      
+.zen-faq, .css-resources, .view-css {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+    padding-left: 0%;
+    margin-left: 10%;
+    margin-top: -1%;
+   
+}
+
+.zen-submit, .zen-translations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20%;
+    padding-left: 0%;
+    margin-left: 63%;
+    margin-top: -5%;
+    margin-top: -6%;
+    
+   
+}
+
+.zen-submit a, .zen-translations a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55%;
+    padding-left: 0%;
+    margin-left: 24%;
+    margin-top: 3%;
+   color: rgb(47, 90, 47);
 }
 
 
@@ -431,8 +467,4 @@ li, ul a {
 
 /* PROBLEMS
 1. cant get the top text centered
-2. who to set colour in between divs 'participation
-and benefits
-3. give margin last p in ' about ' and ' participation '
-4.extend green background in 'participation and beneit'
-*/
+
